@@ -1,6 +1,6 @@
 /home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles/guassing_game_format.dir
 /home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles/edit_cache.dir
 /home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles/rebuild_cache.dir
-/home/vishal/cPlusPlus/homework2/task1/build/src/CMakeFiles/task1.dir
+/home/vishal/cPlusPlus/homework2/task1/build/src/CMakeFiles/task_1.dir
 /home/vishal/cPlusPlus/homework2/task1/build/src/CMakeFiles/edit_cache.dir
 /home/vishal/cPlusPlus/homework2/task1/build/src/CMakeFiles/rebuild_cache.dir

@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/task1.dir/rule:
-	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/task1.dir/rule
-.PHONY : src/CMakeFiles/task1.dir/rule
+src/CMakeFiles/task_1.dir/rule:
+	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/task_1.dir/rule
+.PHONY : src/CMakeFiles/task_1.dir/rule
 
 # Convenience name for target.
-task1: src/CMakeFiles/task1.dir/rule
-.PHONY : task1
+task_1: src/CMakeFiles/task_1.dir/rule
+.PHONY : task_1
 
 # fast build rule for target.
-task1/fast:
-	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/build
-.PHONY : task1/fast
+task_1/fast:
+	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/build
+.PHONY : task_1/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/main.cpp.o
+	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/main.cpp.i
+	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/main.cpp.s
+	cd /home/vishal/cPlusPlus/homework2/task1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... task1"
+	@echo "... task_1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

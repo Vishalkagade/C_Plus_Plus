@@ -80,7 +80,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/task1.dir/all
+src/all: src/CMakeFiles/task_1.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -88,7 +88,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/task1.dir/clean
+src/clean: src/CMakeFiles/task_1.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -118,30 +118,30 @@ CMakeFiles/guassing_game_format.dir/clean:
 .PHONY : CMakeFiles/guassing_game_format.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/task1.dir
+# Target rules for target src/CMakeFiles/task_1.dir
 
 # All Build rule for target.
-src/CMakeFiles/task1.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles --progress-num=2,3 "Built target task1"
-.PHONY : src/CMakeFiles/task1.dir/all
+src/CMakeFiles/task_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles --progress-num=2,3 "Built target task_1"
+.PHONY : src/CMakeFiles/task_1.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/task1.dir/rule: cmake_check_build_system
+src/CMakeFiles/task_1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/task1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/task_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishal/cPlusPlus/homework2/task1/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/task1.dir/rule
+.PHONY : src/CMakeFiles/task_1.dir/rule
 
 # Convenience name for target.
-task1: src/CMakeFiles/task1.dir/rule
-.PHONY : task1
+task_1: src/CMakeFiles/task_1.dir/rule
+.PHONY : task_1
 
 # clean rule for target.
-src/CMakeFiles/task1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/clean
-.PHONY : src/CMakeFiles/task1.dir/clean
+src/CMakeFiles/task_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/clean
+.PHONY : src/CMakeFiles/task_1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

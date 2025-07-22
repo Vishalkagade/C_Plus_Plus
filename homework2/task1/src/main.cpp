@@ -18,7 +18,7 @@ int main() {
   while (cin.fail() || guess < 0 || guess > 99) {
     cin.clear();             // Clear the error flag
     cin.ignore(10000, '\n'); // Remove invalid input
-    cout << "[WARNING] : Number must be between 0 and 99" << endl;
+    cout << "error encountered, exiting..." << endl;
     cout << "Try again: ";
     cin >> guess;
   }

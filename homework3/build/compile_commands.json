@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/vishal/cPlusPlus/homework3/build",
+  "command": "/usr/bin/c++  -I/home/vishal/cPlusPlus/homework3/api  -o CMakeFiles/html_writer.dir/src/html_writer.cpp.o -c /home/vishal/cPlusPlus/homework3/src/html_writer.cpp",
+  "file": "/home/vishal/cPlusPlus/homework3/src/html_writer.cpp"
+},
+{
+  "directory": "/home/vishal/cPlusPlus/homework3/build",
+  "command": "/usr/bin/c++  -I/home/vishal/cPlusPlus/homework3/api  -o CMakeFiles/image_browser.dir/src/image_browser.cpp.o -c /home/vishal/cPlusPlus/homework3/src/image_browser.cpp",
+  "file": "/home/vishal/cPlusPlus/homework3/src/image_browser.cpp"
+},
+{
+  "directory": "/home/vishal/cPlusPlus/homework3/build",
+  "command": "/usr/bin/c++  -I/home/vishal/cPlusPlus/homework3/api  -o CMakeFiles/main.dir/src/test.cpp.o -c /home/vishal/cPlusPlus/homework3/src/test.cpp",
+  "file": "/home/vishal/cPlusPlus/homework3/src/test.cpp"
+}
+]

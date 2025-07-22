@@ -130,17 +130,17 @@ guassing_game_format/fast:
 .PHONY : guassing_game_format/fast
 
 #=============================================================================
-# Target rules for targets named task1
+# Target rules for targets named task_1
 
 # Build rule for target.
-task1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
-.PHONY : task1
+task_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_1
+.PHONY : task_1
 
 # fast build rule for target.
-task1/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task1.dir/build.make src/CMakeFiles/task1.dir/build
-.PHONY : task1/fast
+task_1/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/task_1.dir/build.make src/CMakeFiles/task_1.dir/build
+.PHONY : task_1/fast
 
 # Help Target
 help:
@@ -151,7 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... guassing_game_format"
-	@echo "... task1"
+	@echo "... task_1"
 .PHONY : help
 
 
